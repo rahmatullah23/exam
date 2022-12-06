@@ -72,3 +72,39 @@ a {
   font-size: 16px;
   font-weight: 600;
 }
+.hero-text h1 {
+  font-size: 65px;
+  font-weight: 900;
+}
+.hero-text {
+  padding-right: 50px;
+  width: 540px;
+}
+.hero-btn .btn {
+  margin-right: 12px;
+}
+.logo-area img {
+  width: 165px;
+}
+
+.logo-area {
+  margin-top: 180px;
+}
+.hero-text p {
+  line-height: 35px;
+  font-size: 20px;
+  width: 450px;
+  margin-bottom: 40px;
+}
+
+.header-area {
+  margin-top: 20px;
+}
+.hero-text h1 span {
+  background-color: #b7ffdb;
+  padding: 0 10px;
+  border-radius: 40px;
+}
+.hero-image img {
+  border-radius: 30px;
+}
