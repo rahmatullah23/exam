@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Roboto+Mono:wght@100&family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,10 @@ h6,
 p {
   color: #292d32;
   margin-bottom: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+body {
+  font-family: "Inter", sans-serif;
 }
 img {
   width: 100%;
@@ -50,7 +53,6 @@ img {
   color: #8e8c8a;
 }
 a {
-  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
 
@@ -74,14 +76,20 @@ a {
 }
 .hero-text h1 {
   font-size: 65px;
-  font-weight: 900;
+  font-weight: 600;
 }
 .hero-text {
-  padding-right: 50px;
-  width: 540px;
+  /* padding-right: 40px; */
+  width: 600px;
 }
 .hero-btn .btn {
   margin-right: 12px;
+}
+.hero-btn .feature {
+  border: none;
+}
+.hero-btn .feat {
+  border-color: blue;
 }
 .logo-area img {
   width: 165px;
