@@ -127,3 +127,7 @@ a {
 .feature-image img {
   border-radius: 20px;
 }
+.single-image img {
+  height: 250px;
+  width: 250px;
+}
